@@ -2,7 +2,7 @@
 node_modules/
 
 # Tailwind output files
-dist/
+
 build/
 
 # Logs
