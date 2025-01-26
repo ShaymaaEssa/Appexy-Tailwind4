@@ -27,14 +27,12 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
-# Dependencies lock files (if not needed)
-# Uncomment one based on your package manager
-# package-lock.json
-# yarn.lock
-# pnpm-lock.yaml
-
 # Tailwind CSS watcher file
 *.css.map
+
+# Compiled CSS files in src folder (if generated here)
+src/**/*.css.map
+src/**/*.css
 
 # MacOS and Linux system files
 .DS_Store
