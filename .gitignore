@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Tailwind output files
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Dependencies lock files (if not needed)
+# Uncomment one based on your package manager
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Tailwind CSS watcher file
+*.css.map
+
+# MacOS and Linux system files
+.DS_Store

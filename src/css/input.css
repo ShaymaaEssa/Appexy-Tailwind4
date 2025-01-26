@@ -1,0 +1,21 @@
+/* tailwind */
+@import "tailwindcss";
+
+/* darkmode */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* fontawesome */
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+/* flowbite */
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+@theme{
+    --color-lightblack:#212529;
+    --color-darkblack:#030712;
+    --color-whiteshade:#f3f4f6;
+    
+
+
+}
